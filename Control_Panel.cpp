@@ -13,8 +13,8 @@ Control_Panel::Control_Panel()
     char menu; // A character variable for menu selection
     std::cout << "Do you want to open menu? (Y/N)\n"; // Ask the user if they want to open the menu
     std::cin >> menu; // Get user input
-
-    if(menu == 'Y' || menu == 'y') { // If the user entered 'Y' or 'y'
+    menu = toupper(menu);
+     if(menu == 'Y') { // If the user entered 'Y' or 'y'
         int choice = -1; // A variable to hold the user's choice
         while(choice != 0) { // Continue the loop until the user selects 0
             std::cout << "Please enter your choice:\n"
