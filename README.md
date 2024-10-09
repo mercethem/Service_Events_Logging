@@ -40,7 +40,7 @@ By modifying these sections, you can tailor the behavior and features of the pro
 
 To install the project, follow these steps:
 
-1. Clone or download the project.
+1. Clone or download the project to "C:\Service_Events_Logging".
 2. Run the executable file as an administrator and follow the prompts.
 
 > :warning:  After installation or uninstallation, remember to restart your computer. Additionally, after an uninstallation, use the delete option (3) to ensure the service file is properly removed.
