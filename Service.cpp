@@ -127,7 +127,7 @@ void write_log(const std::map<std::string, std::string> &changes, const std::str
 
     for(const auto &change: changes) { // Iterate through changes
         std::string logEntry =
-                "S. Name: " + change.first + " | Status: " + change.second + " | " + get_time_stamp() + "\n"; // Create log entry
+                "Service_Name: " + change.first + " | Status: " + change.second + " | " + get_time_stamp() + "\n"; // Create log entry
         log_file << logEntry; // Write to log file
     }
 
