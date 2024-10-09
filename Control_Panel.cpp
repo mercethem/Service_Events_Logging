@@ -11,7 +11,7 @@ Control_Panel::Control_Panel()
     Command my_command; // Create a Command object for command operations
 
     char menu; // A character variable for menu selection
-    std::cout << "Do you want to open menu? (Y/N)\n"; // Ask the user if they want to open the menu
+    std::cout << "Do you want to open menu? (Y / Other)\n"; // Ask the user if they want to open the menu
     std::cin >> menu; // Get user input
     menu = toupper(menu);
      if(menu == 'Y') { // If the user entered 'Y' or other
