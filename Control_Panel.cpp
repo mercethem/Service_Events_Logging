@@ -14,7 +14,7 @@ Control_Panel::Control_Panel()
     std::cout << "Do you want to open menu? (Y/N)\n"; // Ask the user if they want to open the menu
     std::cin >> menu; // Get user input
     menu = toupper(menu);
-     if(menu == 'Y') { // If the user entered 'Y' or 'y'
+     if(menu == 'Y') { // If the user entered 'Y' or other
         int choice = -1; // A variable to hold the user's choice
         while(choice != 0) { // Continue the loop until the user selects 0
             std::cout << "Please enter your choice:\n"
