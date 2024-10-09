@@ -44,3 +44,4 @@ To install the project, follow these steps:
 2. Run the executable file as an administrator and follow the prompts.
 
 > :warning:  After installation or uninstallation, remember to restart your computer. Additionally, after an uninstallation, use the delete option (3) to ensure the service file is properly removed.
+> :warning:  Logs recorded during computer startup are not subject to the purpose of this service; The purpose here is to examine the logs recorded after the computer is turned on.
