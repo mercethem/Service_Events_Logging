@@ -91,6 +91,20 @@ build CMakeFiles/Service_Events_Logging.dir/Control_Panel.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\Service_Events_Logging.dir
   OBJECT_FILE_DIR = CMakeFiles\Service_Events_Logging.dir
 
+build CMakeFiles/Service_Events_Logging.dir/Base_Bussiness.cpp.obj: CXX_COMPILER__Service_Events_Logging_unscanned_Debug C$:/Service_Events_Logging/Base_Bussiness.cpp || cmake_object_order_depends_target_Service_Events_Logging
+  DEP_FILE = CMakeFiles\Service_Events_Logging.dir\Base_Bussiness.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Service_Events_Logging/.
+  OBJECT_DIR = CMakeFiles\Service_Events_Logging.dir
+  OBJECT_FILE_DIR = CMakeFiles\Service_Events_Logging.dir
+
+build CMakeFiles/Service_Events_Logging.dir/Error_Handling.cpp.obj: CXX_COMPILER__Service_Events_Logging_unscanned_Debug C$:/Service_Events_Logging/Error_Handling.cpp || cmake_object_order_depends_target_Service_Events_Logging
+  DEP_FILE = CMakeFiles\Service_Events_Logging.dir\Error_Handling.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Service_Events_Logging/.
+  OBJECT_DIR = CMakeFiles\Service_Events_Logging.dir
+  OBJECT_FILE_DIR = CMakeFiles\Service_Events_Logging.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Service_Events_Logging
@@ -99,7 +113,7 @@ build CMakeFiles/Service_Events_Logging.dir/Control_Panel.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable Service_Events_Logging.exe
 
-build Service_Events_Logging.exe: CXX_EXECUTABLE_LINKER__Service_Events_Logging_Debug CMakeFiles/Service_Events_Logging.dir/Command.cpp.obj CMakeFiles/Service_Events_Logging.dir/File.cpp.obj CMakeFiles/Service_Events_Logging.dir/Logging.cpp.obj CMakeFiles/Service_Events_Logging.dir/main.cpp.obj CMakeFiles/Service_Events_Logging.dir/Service.cpp.obj CMakeFiles/Service_Events_Logging.dir/Control_Panel.cpp.obj
+build Service_Events_Logging.exe: CXX_EXECUTABLE_LINKER__Service_Events_Logging_Debug CMakeFiles/Service_Events_Logging.dir/Command.cpp.obj CMakeFiles/Service_Events_Logging.dir/File.cpp.obj CMakeFiles/Service_Events_Logging.dir/Logging.cpp.obj CMakeFiles/Service_Events_Logging.dir/main.cpp.obj CMakeFiles/Service_Events_Logging.dir/Service.cpp.obj CMakeFiles/Service_Events_Logging.dir/Control_Panel.cpp.obj CMakeFiles/Service_Events_Logging.dir/Base_Bussiness.cpp.obj CMakeFiles/Service_Events_Logging.dir/Error_Handling.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -static -static-libgcc -static-libstdc++
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
