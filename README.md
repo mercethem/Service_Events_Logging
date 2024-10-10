@@ -55,7 +55,7 @@ To install the project, follow these steps:
 ------------------------------------
 ## INTRODUCTION VIDEO:
 
-[![Watch the video](https://github.com/user-attachments/assets/bf5303f1-e7df-4895-8469-c51a89377aa9)
+https://github.com/user-attachments/assets/bf5303f1-e7df-4895-8469-c51a89377aa9
 
 
 
