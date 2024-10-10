@@ -51,3 +51,11 @@ To install the project, follow these steps:
 > :warning:  After installation or uninstallation, remember to restart your computer. Additionally, the deletion process will take a maximum of 10 seconds. Be patient while the service is deleted.
 
 > :warning:  Logs recorded during computer startup are not subject to the purpose of this service; The purpose here is to examine the logs recorded after the computer is turned on.
+
+------------------------------------
+## INTRODUCTION VIDEO:
+
+[![Watch the video](https://github.com/user-attachments/assets/bf5303f1-e7df-4895-8469-c51a89377aa9)
+
+
+
