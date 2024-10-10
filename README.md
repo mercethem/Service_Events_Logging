@@ -12,14 +12,17 @@ The project consists of the following components:
 - **File:** Class for file operations (creation, copying, deletion).
 - **Logging:** Functionality for error handling and logging events.
 - **Service:** Core functionality of the Windows service.
-- **Main:** Entry point of the application and user interaction interface.
+- **Control_Panel:** Entry point of the application and user interaction interface.
+- **Error_Handling:** Class for error handling.
+- **Base_Bussiness:** Functionality base events.
+- **Main:** Start program.
 
 ## Operation Principle
 
 The project leverages the Windows API to provide the necessary functionality for service installation and management. The main workflow is as follows:
 
 1. User starts the application, which presents a menu of options.
-2. User can select options for service installation, uninstallation, or file deletion.
+2. User can select options for service installation, uninstallation, or EXIT.
 3. The selected operations are executed using methods from the relevant classes.
 4. The service runs in the background, monitoring the status of other services in the system and logging events.
 
