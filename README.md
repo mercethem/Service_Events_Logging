@@ -4,6 +4,8 @@
 
 This project is designed to develop a Windows service application that operates on Windows operating systems. It provides functionalities for installing, uninstalling, and checking the status of a Windows service. Users can perform service-related operations by running the command line as an administrator.
 
+> :warning:  It has been tried to be developed in accordance with **SOLID** and **OOP** principles.
+
 ## Components
 
 The project consists of the following components:
